@@ -1,6 +1,6 @@
 # Deep Analysis Digital Media and Social Network
 getwd()
-setwd("C:/Users/LUYI/Downloads/arenas-email")
+setwd("filepath")
 ctrl+L > clean the console
 rm(list=ls()) > clean all the variables
 
