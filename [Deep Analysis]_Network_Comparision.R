@@ -97,3 +97,6 @@ nemail_edge_betweenness<-cluster_edge_betweenness(nemail,directed=F)
 # Plot modularity
 plot(nemail_edge_betweenness, nemail,vertex.size=2, vertex.label=NA,layout=layout.fruchterman.reingold(nemail, niter=10000),edge.color="grey",edge.width=0.01,vertex.color="blue",vertex.shape ="circle")
 plot(er_edge_betweenness, er,vertex.size=2, vertex.label=NA,layout=layout.fruchterman.reingold(er, niter=10000),edge.color="grey",edge.width=0.01,vertex.color="blue",vertex.shape ="circle")
+
+# Reference: U. rovira i virgili network dataset -- KONECT, October 2016
+# email_network dataset collected from: http://konect.uni-koblenz.de/networks/arenas-email
